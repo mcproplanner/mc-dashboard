@@ -265,7 +265,7 @@
         function Dashboard({ user, onLogout }) {
             const uid = user ? user.uid : 'offline';
             const userEmail = user && user.email ? user.email : 'Usuario Local';
-            const ADMIN_EMAIL = 'modocreativo2026@gmail.com';
+            const ADMIN_EMAIL = 'mcproplanner@gmail.com';
             const isAdmin = userEmail === ADMIN_EMAIL;
 
             const [contacts, setContacts] = usePersistedState(`mc_contacts`, [], uid);
